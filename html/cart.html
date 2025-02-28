@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="cart.js"></script>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html" class="nav-link">🏠 Home</a>
+            <a href="cart.html" class="nav-link">🛒 Cart</a>
+        </nav>
+    </header>
+
+    <section id="cart">
+        <h2>🛍 Your Shopping Cart</h2>
+        <div id="cart-items"></div>
+        <h3>Total: $<span id="cart-total">0.00</span></h3>
+        <button onclick="checkout()">Checkout</button>
+    </section>
+
+</body>
+</html>

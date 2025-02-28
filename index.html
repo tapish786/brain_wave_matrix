@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tapish's E-Commerce Store</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#products" class="nav-link">Products</a>
+            <a href="#contact" class="nav-link">Contact</a>
+            <a href="login.html" class="nav-link">Login</a>
+            <a href="#" class="cart-btn">🛒 Cart <span id="cart-count">0</span></a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Welcome to Tapish's Store</h1>
+        <p>Your one-stop shop for the latest gadgets!</p>
+        <button onclick="scrollToProducts()">Shop Now</button>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Welcome to Tapish's Store, where we bring you the best tech gadgets at the best prices!</p>
+        <img src="about-image.jpg" alt="About Us">
+    </section>
+
+    <!-- Product Section -->
+    <section id="products">
+        <h2>Our Products</h2>
+        <input type="text" id="search-bar" placeholder="Search for products..." onkeyup="searchProducts()">
+        <div id="product-list"></div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:tapishv786@gmail.com">tapishv786@gmail.com</a></p>
+        <p>Phone: +91 XXXXXXXXXX</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Created by <strong>Tapish Sharma</strong> | &copy; 2025</p>
+    </footer>
+
+</body>
+</html>
+<header>
+    <nav>
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#products" class="nav-link">Products</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <a href="login.html" class="nav-link">Login</a>
+        <a href="cart.html" class="cart-btn">🛒 Cart <span id="cart-count">0</span></a>
+    </nav>
+</header>
+<section id="products">
+    <h2>Our Products</h2>
+    <input type="text" id="search-bar" placeholder="Search for products..." onkeyup="searchProducts()">
+    <div id="product-list"></div>
+</section>
